@@ -10,12 +10,6 @@ function App() {
     email: "",
   });
 
-  const [formData, setFormData] = useState({
-    username: "",
-    role: "",
-    email: "",
-  });
-
   const handleChange = (e) => {
     setFormData({
       ...formData,
